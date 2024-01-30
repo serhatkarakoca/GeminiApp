@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">GeminiApp</string>
+    <string name="input_placeholder">Message...</string>
 </resources>

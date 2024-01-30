@@ -70,4 +70,5 @@ dependencies {
     implementation("com.google.ai.client.generativeai:generativeai:0.1.2")
     implementation("androidx.navigation:navigation-compose:2.7.6")
     implementation("com.valentinilk.shimmer:compose-shimmer:1.2.0")
+    implementation("androidx.compose.ui:ui-util:1.6.0")
 }

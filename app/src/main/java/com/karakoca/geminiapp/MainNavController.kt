@@ -9,7 +9,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.karakoca.geminiapp.util.Screen
-import com.karakoca.geminiapp.view.HomeScreen
+import com.karakoca.geminiapp.view.home.HomeScreen
 
 @Composable
 fun MainNavController() {
