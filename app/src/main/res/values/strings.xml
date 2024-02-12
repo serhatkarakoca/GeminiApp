@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">GeminiApp</string>
     <string name="input_placeholder">Message...</string>
+    <string name="home">Home</string>
+    <string name="chat">Chat</string>
+    <string name="dream_interpreter">Dream Interpreter</string>
 </resources>

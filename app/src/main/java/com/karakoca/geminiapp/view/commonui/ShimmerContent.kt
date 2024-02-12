@@ -1,4 +1,4 @@
-package com.karakoca.geminiapp.util
+package com.karakoca.geminiapp.view.commonui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
