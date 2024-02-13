@@ -1,4 +1,4 @@
-package com.karakoca.geminiapp.view.chat
+package com.karakoca.geminiapp.view.screen.chat
 
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
@@ -6,7 +6,7 @@ import androidx.lifecycle.viewModelScope
 import com.google.ai.client.generativeai.type.Content
 import com.google.ai.client.generativeai.type.GenerateContentResponse
 import com.google.ai.client.generativeai.type.content
-import com.karakoca.geminiapp.Gemini
+import com.karakoca.geminiapp.util.Gemini
 import com.karakoca.geminiapp.model.Chat
 import com.karakoca.geminiapp.model.Constants
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -38,7 +38,7 @@ class ChatViewModel(savedStateHandle: SavedStateHandle) : ViewModel() {
         chatHistory.add(chat1)
         chatHistory.add(chat2)
         chat = Gemini.generativeModel.startChat(convertToContent())
-        sendMessage("Merhaba ne konuda sorular sorabilirim")
+        sendMessage("Merhaba ne işe yarıyorsun cevabı ${Locale.getDefault().displayLanguage} dilinde ver")
     }
 
     fun sendMessage(message: String) {

@@ -1,6 +1,7 @@
-package com.karakoca.geminiapp
+package com.karakoca.geminiapp.util
 
 import com.google.ai.client.generativeai.GenerativeModel
+import com.karakoca.geminiapp.BuildConfig
 
 object Gemini {
     val generativeModel = GenerativeModel(

@@ -1,4 +1,4 @@
-package com.karakoca.geminiapp.view.chat
+package com.karakoca.geminiapp.view.screen.chat
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.background

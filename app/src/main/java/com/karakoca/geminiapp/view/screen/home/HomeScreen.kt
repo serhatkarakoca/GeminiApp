@@ -1,4 +1,4 @@
-package com.karakoca.geminiapp.view.home
+package com.karakoca.geminiapp.view.screen.home
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement

@@ -1,10 +1,7 @@
-package com.karakoca.geminiapp
+package com.karakoca.geminiapp.view
 
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
@@ -18,9 +15,9 @@ import androidx.navigation.navArgument
 import com.karakoca.geminiapp.model.Constants
 import com.karakoca.geminiapp.util.Screen
 import com.karakoca.geminiapp.util.destinations
-import com.karakoca.geminiapp.view.chat.ChatScreen
+import com.karakoca.geminiapp.view.screen.chat.ChatScreen
 import com.karakoca.geminiapp.view.commonui.MyToolbar
-import com.karakoca.geminiapp.view.home.HomeScreen
+import com.karakoca.geminiapp.view.screen.home.HomeScreen
 
 @Composable
 fun MainNavController() {
